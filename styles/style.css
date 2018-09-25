@@ -43,26 +43,34 @@ table {
 }
 
 /* my styles*/
-body{
-  background-image: url(dc-online-media-mockup.jpg);
+ body{
+  background-image: url(dc-online-media-mockup.JPG);
   background-size: 800px 20624px;
- background-position: top center;
- background-repeat: no-repeat;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 700px;
+  margin: 68px 0px 350px 370px;
+
+
+}
+p:first-of-type{
+  color: gray;
+  opacity: 0.9;
+  line-height: 30px;
+  font-size: 21.8px;
+  font-family: 'PT Sans Caption', sans-serif;
+  letter-spacing: 0.03px;
 }
 h1{
-  font-size: 70px;font-family: 'PT Sans Caption', Sans;
-  color:#C8FFA4;
-  background-color: red;
+  font-size: 40px;font-family: 'PT Sans Caption', Sans;
+  font-weight: bold;
+  margin-bottom: 7px;
 }
 h2{font-size: 40px;
   font-family: 'PT Sans Caption', sans-serif;
-  color:#C8FFA4;
-  background-color: blue;
 }
-h3{font-size: 20px;
-  color:#C8FFA4;
-  background-color: green;
-}
+
 p{
+  font-size: 24px;
   font-family: 'PT Sans', sans-serif;
 }
