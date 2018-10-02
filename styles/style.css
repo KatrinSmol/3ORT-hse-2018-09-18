@@ -44,53 +44,71 @@ table {
 
 /* my styles*/
  body{
-  background-size: 800px 20624px;
-  background-position: top center;
-  background-repeat: no-repeat;
   width: 700px;
-  margin: 68px 0px 300px 370px;
-
-
+  margin: 80px 0px 450px 400px;
 }
-p:first-of-type{
+p:first-of-type {
+	margin-bottom: 32px;
+	font-size: 22px;
+  font-weight: 300;
+  font-family: 'PT Sans Caption', sans-serif;
   color: gray;
   opacity: 0.9;
-  line-height: 32px;
-  font-size: 22px;
-  font-weight: light;
-  font-family: 'PT Sans Caption', sans-serif;
-  letter-spacing: 0.005px;
-  margin-bottom: 29px;
+  line-height: 32px
 }
-h1{
-  font-size: 40px;font-family: 'PT Sans Caption', Sans;
-  font-weight: bold;
-  margin-bottom: 4.7px;
+h1 {
+	margin-top: 16px;
+  font-size:40px;
+	font-weight: bold;
+	font-family: 'PT Sans Caption', sans-serif;
+  line-height: 46px;
 }
-h2{margin-top: 48px;
+h1 + p {
+	margin-top: 14px;
+	font-size: 22px;
+	line-height: 32px;
+}
+h2 {
+	margin-top: 43px;
   font-size: 32px;
   font-weight: bold;
   font-family: 'PT Sans Caption', sans-serif;
+	line-height: 36px;
 }
-h3{margin-top: 28px;
+h3{
+	margin-top: 36px;
+	margin-bottom: 28px;
   font-size: 28px;
-  font-weight: 600;
+	font-weight: bold;
   font-family: 'PT Sans Caption', sans-serif;
-	font-style: italic;
+	line-height: 34px;
 }
-ul{
+h3 + p {
+	margin-top: 6px;
+}
+ul {
 	list-style: circle;
 	list-style-type: decimal-leading-zero;
-	margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size:22px;
   font-family: 'PT Sans', sans-serif;
 
 }
-
-p{
-  font-size: 22px;
-  font-family: 'PT Sans', sans-serif;
-  letter-spacing: 0.005px;
-  line-height: 32px;
+p,blockquote {
+	font-size: 22px;
+	line-height: 34px;
+}
+a {
+color:inherit;
+}
+p + p {
+margin-bottom: 52px;
+}
+blockquote {
+	margin-top: 52px;
+	margin-left: -17px;
+	padding-left: 17px;
+	font-style: italic;
+  border-left: 3px solid;
+	border-spacing: 17px;
 }
